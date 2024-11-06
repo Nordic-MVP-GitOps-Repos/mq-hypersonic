@@ -12,9 +12,9 @@ spec:
         - name: mq
           namespace: cp4i
           sync-wave: "300"
-        #- name: eventstreams
-        #  namespace: cp4i
-        #  sync-wave: "300"
+        - name: eventstreams
+          namespace: cp4i
+          sync-wave: "300"
         #- name: openshift-logging
         #  namespace: openshift-logging
         #  sync-wave: "200"
